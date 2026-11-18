@@ -45,7 +45,10 @@ When Brett reports a bug or asks for something: stop, write a backlog item with 
 - Tell Brett plainly what the pull request contains, that merging means approval, and that nothing live changes.
 
 ## Architecture rules
-Not decided yet. Set in `docs/08` once Brett approves the architecture. (Earlier handoff proposed: everything in Deluge inside Zoho, no outside server or JavaScript; to be confirmed.)
+Direction decided by Brett (2026-11-18); details go in `docs/08` when it is written and approved:
+1. Security through Zoho: sign-in, roles and permissions come from Zoho; no separate login or user system.
+2. Deluge inside Zoho wherever it can do the job.
+3. Zoho Catalyst only when a process has to run outside Zoho's apps. Catalyst code may be in any language Catalyst supports.
 
 ## Brand
 Outputs use Arial and SmartShield brand blue #2F4988.
