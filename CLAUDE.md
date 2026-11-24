@@ -49,6 +49,7 @@ Direction decided by Brett (2026-11-18); details go in `docs/08` when it is writ
 1. Security through Zoho: sign-in, roles and permissions come from Zoho; no separate login or user system.
 2. Deluge inside Zoho wherever it can do the job.
 3. Zoho Catalyst only when a process has to run outside Zoho's apps. Catalyst code may be in any language Catalyst supports.
+4. Nothing hard-coded. Every parameter and every piece of setup (rates, percentages, mappings, picklists, thresholds, template choices, vendor file layouts) lives in a table that can be edited without changing code. Environment variables hold only access tokens and secrets.
 
 ## Brand
 Outputs use Arial and SmartShield brand blue #2F4988.
