@@ -4,7 +4,7 @@ The documents are the source of truth. Code is rebuilt from them.
 
 | # | Document | Status |
 |---|---|---|
-| 01 | Overview and scope | Not started |
+| 01 | [Overview and scope](01-overview-and-scope.md) | In review |
 | 02 | Requirements | Not started |
 | 04 | Data model | Not started |
 | 05 | Integration contracts | Not started |
